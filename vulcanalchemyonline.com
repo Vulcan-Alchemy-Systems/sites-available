@@ -7,7 +7,7 @@ map $http_upgrade $connection_upgrade {
 }
 
 upstream vulcanalchemyonline.com {
-    server 127.0.0.1:3005;
+    server 127.0.0.1:3010;
 }
 
 server {

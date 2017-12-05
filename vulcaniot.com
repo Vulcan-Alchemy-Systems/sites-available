@@ -7,7 +7,7 @@ map $http_upgrade $connection_upgrade {
 }
 
 upstream vulcaniot.com {
-    server 127.0.0.1:3002;
+    server 127.0.0.1:3004;
 }
 
 server {
