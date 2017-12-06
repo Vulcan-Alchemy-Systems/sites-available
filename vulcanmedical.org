@@ -12,7 +12,7 @@ upstream vulcanmedical.org {
 
 server {
    listen 80;
-   server_name www.vulcanmedical.org;
+   server_name vulcanmedical.org www.vulcanmedical.org;
    access_log  /var/log/nginx/vulcanmedical.org.log;
    error_log  /var/log/nginx/vulcanmedical.org.error.log error;
    

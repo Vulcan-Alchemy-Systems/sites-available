@@ -12,7 +12,7 @@ upstream vulcanalchemyonline.com {
 
 server {
    listen 80;
-   server_name www.vulcanalchemyonline.com;
+   server_name vulcanalchemyonline.com www.vulcanalchemyonline.com;
    access_log  /var/log/nginx/vulcanalchemyonline.com.log;
    error_log  /var/log/nginx/vulcanalchemyonline.com.log error;
    

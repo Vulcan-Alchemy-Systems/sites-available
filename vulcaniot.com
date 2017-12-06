@@ -12,7 +12,7 @@ upstream vulcaniot.com {
 
 server {
    listen 80;
-   server_name www.vulcaniot.com;
+   server_name vulcaniot.com www.vulcaniot.com;
    access_log  /var/log/nginx/vulcaniot.com.log;
    error_log  /var/log/nginx/vulcaniot.com.error.log error;
    
